@@ -1,3 +1,4 @@
 root: ./
 
-assets: ./
+structure:
+  readme: README.md
