@@ -1,4 +1,4 @@
-# pyocient Release Notes 2
+# pyocient Release Notes
 
 ## 1.0.9
 
