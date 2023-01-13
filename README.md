@@ -5,7 +5,7 @@
 
 ## 1.0.10
 
-- Fix error in parameter substitution docstring
+- Fixed error in the parameter substitution docstring.
 - Added support for `SERVICECLASS`, `ADJUSTFACTOR`, `ADJUSTTIME`, and `PSO` query settings
 - Added support for the `SHOW` command
 - Added support for the `CANCEL TASK` command
