@@ -7,7 +7,7 @@
 
 - Fixed error in the parameter substitution docstring.
 - Added support for `SERVICECLASS`, `ADJUSTFACTOR`, `ADJUSTTIME`, and `PSO` query settings.
-- Added support for the `SHOW` command
+- Added support for the `SHOW` command.
 - Added support for the `CANCEL TASK` command
 - Remove support for `PRIORITY_ADJUSTMENT_FACTOR`, `PRIORITY_ADJUSTMENT_TIME`, `MIN_PRIORITY`, and `MAX_PRIORITY` query settings.
 - Deprecate support for the `CHECK DATA` command
