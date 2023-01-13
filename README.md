@@ -11,7 +11,7 @@
 - Added support for the `CANCEL TASK` command.
 - Removed support for `PRIORITY_ADJUSTMENT_FACTOR`, `PRIORITY_ADJUSTMENT_TIME`, `MIN_PRIORITY`, and `MAX_PRIORITY` query settings.
 - Deprecate support for the `CHECK DATA` command
-- Fixed output of binary types in the command line
+- Fixed output of binary types at the command line.
 
 ## 1.0.9
 
