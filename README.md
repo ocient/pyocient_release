@@ -1,7 +1,7 @@
 # Pyocient Release Notes
 
 ## 1.0.12
-- Added `--nohistory` command-line option.
+- Added `--nohistory` command-line option. Commands from the session will not be stored in the history file.
 - Added `ignorespace` option to command-line history. Lines that begin with a white space character to be omitted from the history file.
 
 ## 1.0.11
