@@ -1,5 +1,8 @@
 # Pyocient Release Notes
 
+## 1.0.13
+- Fixed bug that left `Cursor.rowcount` unset after DML query execution.
+
 ## 1.0.12
 - Added `--nohistory` command-line option. The history file does not store commands from the session.
 - Added `ignorespace` option to command-line history. The history file omits lines that begin with a white space character.
