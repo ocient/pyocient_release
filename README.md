@@ -1,7 +1,7 @@
 # Pyocient Release Notes
 
 ## 1.0.13
-- Unpinned `cryptography` package dependency
+- Fixed bug that left `Cursor.rowcount` unset after Data Manipulation Language (DML) query execution.
 
 ## 1.0.12
 - Added `--nohistory` command-line option. The history file does not store commands from the session.
