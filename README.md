@@ -2,6 +2,7 @@
 
 ## 1.0.13
 - Fixed bug that left `Cursor.rowcount` unset after Data Manipulation Language (DML) query execution.
+- The `cryptography` package requirement of version 36 or lower is no longer required.
 
 ## 1.0.12
 - Added `--nohistory` command-line option. The history file does not store commands from the session.
