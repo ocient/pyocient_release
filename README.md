@@ -6,7 +6,7 @@
 - Fixed an error when no host parameter is specified on the `connect()` api.
 ## 1.0.14
 - Updated pyocient dependencies to eliminate some unused dependencies and tighten
-  the dependencies on protobuf and dsnparse
+  the dependencies on protobuf and dsnparse.
 
 ## 1.0.13
 - Fixed bug that left `Cursor.rowcount` unset after Data Manipulation Language (DML) query execution.
