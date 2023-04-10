@@ -1,5 +1,9 @@
 # Pyocient Release Notes
 
+## 1.0.15
+
+- The dependency on protobuf has been upgraded from `>=3.12.0,<=3.19.1` to `>=3.20.0,<=4.22.0`.
+- Fixed an error that occurs when you do not specify the host parameter in the `connect()` api.
 ## 1.0.14
 - Updated pyocient dependencies to eliminate some unused dependencies and tighten
   the dependencies on protobuf and dsnparse.
