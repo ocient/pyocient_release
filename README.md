@@ -2,11 +2,7 @@
 
 ## 2.0.0
 
-A major release with the following content
-
 - Packaging has been significantly refactored to match Python® packaging standards. 
-    Internally the code is now broken into pyocient.api and pyocient.cli, 
-    though this should not require interface changes.
 - Python context manager support has been added to connections and cursors.
 - Python type annotations have been added to the pyocient API.
 - Fixed the command-line interface (CLI) to return a non-zero code for statements that fail.
