@@ -4,16 +4,16 @@
 
 A major release with the following content
 
-- Packaging has been significantly refactored to match python packaging standards. 
+- Packaging has been significantly refactored to match Python® packaging standards. 
     Internally the code is now broken into pyocient.api and pyocient.cli, 
     though this should not require interface changes.
-- Python context manager support has been added to connections and cursors
-- Python type annotations have been added to the pyocient API
-- The CLI returns a non-zero code on failing statements
-- CLI output has been standardized to either go to the output file or stdout
-- The option to echo statements has been added as a command line option
-- The `pyocient.SyntaxError` exception, which conflicted with the builtin python `SyntaxException` has been removed.
-- `pyocient.version` has been removed in favor of the more standard `pyocient.__version__`
+- Python context manager support has been added to connections and cursors.
+- Python type annotations have been added to the pyocient API.
+- Fixed the command-line interface (CLI) to return a non-zero code for statements that fail.
+- CLI output has been standardized to either go to the output file or standard output (stdout).
+- The option to echo statements has been added as a command-line option.
+- The `pyocient.SyntaxError` exception, which conflicted with the built-in Python `SyntaxException`, has been removed.
+- `pyocient.version` has been removed in favor of the more standard `pyocient.__version__`.
 
 ## 1.0.15
 
