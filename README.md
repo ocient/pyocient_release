@@ -1,5 +1,16 @@
 # Pyocient Release Notes
 
+## 2.0.0
+
+- Packaging has been significantly refactored to match Python® packaging standards. 
+- Python context manager support has been added to connections and cursors.
+- Python type annotations have been added to the pyocient API.
+- Fixed the command-line interface (CLI) to return a non-zero code for statements that fail.
+- CLI output has been standardized to either go to the output file or standard output (stdout).
+- The option to echo statements has been added as a command-line option.
+- The `pyocient.SyntaxError` exception, which conflicted with the built-in Python `SyntaxException`, has been removed.
+- `pyocient.version` has been removed in favor of the more standard `pyocient.__version__`.
+
 ## 1.0.15
 
 - The dependency on protobuf has been upgraded from `>=3.12.0,<=3.19.1` to `>=3.20.0,<=4.22.0`.
