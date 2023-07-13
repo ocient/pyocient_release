@@ -8,7 +8,7 @@
 - You can pass the `security_token` from another connection to the `connect` function.
 - The `Session` object has been removed.
 - The `custom_type_to_json` function has been moved into the pyocient API to allow the consistent conversion of the result set to the JSON format.
-- The `patch` portion of the pyocient version is now sent to the database and will be logged there
+- The `patch` portion of the pyocient version is sent to and logged in the database.
 - The `--nooutput` command line parameter has been fixed to not throw a python exception
 - An error reporting `local variable 'return_code' referenced before assignment` has been fixed
 - A `--rows` argument to the command line program has been added to allow loading resultset data in batches
