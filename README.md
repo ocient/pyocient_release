@@ -3,7 +3,7 @@
 ## 3.0.2
 
 - The `TypeCodes` class has been changed to a Python® `IntEnum`.
-- GIS types (STPoint, STLinestring, STPolygon) have been renamed from _STPoint, _STLinestring, _STPolygin
+- GIS types  _STPoint, _STLinestring, and _STPolygon have been renamed to STPoint, STLinestring, and STPolygon, respectively.
 - The `user` and `password` fields have been removed from the `Connection` object and are no longer stored in the object
 - A `security_token` from another connection can be passed in to the `connect` function
 - The `Session` object has been removed
