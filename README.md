@@ -4,7 +4,7 @@
 
 - The `TypeCodes` class has been changed to a Python® `IntEnum`.
 - GIS types  _STPoint, _STLinestring, and _STPolygon have been renamed to STPoint, STLinestring, and STPolygon, respectively.
-- The `user` and `password` fields have been removed from the `Connection` object and are no longer stored in the object
+- The `user` and `password` fields have been removed from the `Connection` object. This object no longer stores these fields.
 - A `security_token` from another connection can be passed in to the `connect` function
 - The `Session` object has been removed
 - The `custom_type_to_json` function has been moved into the pyocient API to allow consistent conversion of resultset data to JSON format
