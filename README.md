@@ -9,7 +9,7 @@
 - The `Session` object has been removed.
 - The `custom_type_to_json` function has been moved into the pyocient API to allow the consistent conversion of the result set to the JSON format.
 - The `patch` portion of the pyocient version is sent to and logged in the database.
-- The `--nooutput` command line parameter has been fixed to not throw a python exception
+- The `--nooutput` command-line parameter does not throw a Python exception.
 - An error reporting `local variable 'return_code' referenced before assignment` has been fixed
 - A `--rows` argument to the command line program has been added to allow loading resultset data in batches
 - An alpha version of OpenAI "text to SQL" has been added to the command line
