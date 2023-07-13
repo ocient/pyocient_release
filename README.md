@@ -11,7 +11,7 @@
 - The `patch` portion of the pyocient version is sent to and logged in the database.
 - The `--nooutput` command-line parameter does not throw a Python exception.
 - The `local variable 'return_code' referenced before assignment` error has been fixed.
-- A `--rows` argument to the command line program has been added to allow loading resultset data in batches
+- Added the `--rows` argument to the command-line program to load the result set in batches.
 - An alpha version of OpenAI "text to SQL" has been added to the command line
 
 
