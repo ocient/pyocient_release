@@ -6,7 +6,7 @@
 - GIS types  _STPoint, _STLinestring, and _STPolygon have been renamed to STPoint, STLinestring, and STPolygon, respectively.
 - The `user` and `password` fields have been removed from the `Connection` object. This object no longer stores these fields.
 - You can pass the `security_token` from another connection to the `connect` function.
-- The `Session` object has been removed
+- The `Session` object has been removed.
 - The `custom_type_to_json` function has been moved into the pyocient API to allow consistent conversion of resultset data to JSON format
 - The `patch` portion of the pyocient version is now sent to the database and will be logged there
 - The `--nooutput` command line parameter has been fixed to not throw a python exception
