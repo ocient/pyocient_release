@@ -1,6 +1,6 @@
 # Pyocient Release Notes
 
-## 3.0.2
+## 3.0.3
 
 - The `TypeCodes` class has been changed to a Python® `IntEnum`.
 - GIS types  _STPoint, _STLinestring, and _STPolygon have been renamed to STPoint, STLinestring, and STPolygon, respectively.
@@ -12,7 +12,6 @@
 - The `--nooutput` command-line parameter does not throw a Python exception.
 - The `local variable 'return_code' referenced before assignment` error has been fixed.
 - Added the `--rows` argument to the command-line program to load the result set in batches.
-- An alpha version of OpenAI "text to SQL" has been added to the command line
 
 
 ## 2.0.0
