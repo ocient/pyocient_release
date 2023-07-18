@@ -1,5 +1,19 @@
 # Pyocient Release Notes
 
+## 3.0.3
+
+- The `TypeCodes` class has been changed to a Python® `IntEnum`.
+- GIS types _STPoint, _STLinestring, and _STPolygon have been renamed to STPoint, STLinestring, and STPolygon, respectively.
+- The `user` and `password` fields have been removed from the `Connection` object. This object no longer stores these fields.
+- You can pass the `security_token` from another connection to the `connect` function.
+- The `Session` object has been removed.
+- The `custom_type_to_json` function has been moved into the pyocient API to allow the consistent conversion of the result set to the JSON format.
+- The `patch` portion of the pyocient version is sent to and logged in the database.
+- The `--nooutput` command-line parameter does not throw a Python exception.
+- The `local variable 'return_code' referenced before assignment` error has been fixed.
+- Added the `--rows` argument to the command-line program to load the result set in batches.
+
+
 ## 2.0.0
 
 - Packaging has been significantly refactored to match Python® packaging standards. 
