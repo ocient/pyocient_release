@@ -2,17 +2,17 @@
 
 ## 3.3.0
 
-- Pin the cryptography package to <42.0.0 to avoid a bug in that package 
-- Implement OIDC single signon
-- Implement the "performance mode" command
-- Display nulls as NULL when using the table format
-- Set the command line default fetch size to 30000
-- Fix the implementation of the "set serviceclass" command
-- Make pyocient.Warning a sublclass of the python Warning class
-- Add the "set printuuid on" command
-- Implement the --version option on the command line
-- Set TCP keepalive options on connections 
-- Print a valid error message when a non-SSL connection is rejected
+- Pinned the cryptography package to a version earlier than 42.0.0 for stability purposes.
+- Added OIDC single sign on (SSO).
+- Added the `performance mode` command.
+- Enabled the display of nulls as NULL when using the table format.
+- Set the command-line default fetch size to 30000.
+- Fixed the implementation of the `set serviceclass` command.
+- Changed `pyocient.Warning` to be a subclass of the Python `Warning` class.
+- Added the `set printuuid on` command.
+- Added the `--version` option at the command line.
+- Set the TCP `keepalive` options on connections.
+- Added a valid error message when the system rejects a connection without SSL encryption.
 
 ## 3.0.3
 
