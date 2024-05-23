@@ -1,5 +1,19 @@
 # Pyocient Release Notes
 
+## 3.3.0
+
+- Pinned the cryptography package to a version earlier than 42.0.0 for stability purposes.
+- Added OIDC single sign on (SSO).
+- Added the `performance mode` command.
+- Enabled the display of nulls as NULL when using the table format.
+- Set the command-line default fetch size to 30000.
+- Fixed the implementation of the `set serviceclass` command.
+- Changed `pyocient.Warning` to be a subclass of the Python `Warning` class.
+- Added the `set printuuid on` command.
+- Added the `--version` option at the command line.
+- Set the TCP `keepalive` options on connections.
+- Added a valid error message when the system rejects a connection without SSL encryption.
+
 ## 3.0.3
 
 - The `TypeCodes` class has been changed to a Python® `IntEnum`.
