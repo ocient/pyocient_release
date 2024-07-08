@@ -1,5 +1,9 @@
 # Pyocient Release Notes
 
+## 3.3.2
+
+- Fix issue with ending SSO sessions when closing connections
+
 ## 3.3.0
 
 - Pinned the cryptography package to a version earlier than 42.0.0 for stability purposes.
@@ -17,7 +21,7 @@
 ## 3.0.3
 
 - The `TypeCodes` class has been changed to a Python® `IntEnum`.
-- GIS types _STPoint, _STLinestring, and _STPolygon have been renamed to STPoint, STLinestring, and STPolygon, respectively.
+- GIS types \_STPoint, \_STLinestring, and \_STPolygon have been renamed to STPoint, STLinestring, and STPolygon, respectively.
 - The `user` and `password` fields have been removed from the `Connection` object. This object no longer stores these fields.
 - You can pass the `security_token` from another connection to the `connect` function.
 - The `Session` object has been removed.
@@ -27,10 +31,9 @@
 - The `local variable 'return_code' referenced before assignment` error has been fixed.
 - Added the `--rows` argument to the command-line program to load the result set in batches.
 
-
 ## 2.0.0
 
-- Packaging has been significantly refactored to match Python® packaging standards. 
+- Packaging has been significantly refactored to match Python® packaging standards.
 - Python context manager support has been added to connections and cursors.
 - Python type annotations have been added to the pyocient API.
 - Fixed the command-line interface (CLI) to return a non-zero code for statements that fail.
@@ -43,19 +46,24 @@
 
 - The dependency on protobuf has been upgraded from `>=3.12.0,<=3.19.1` to `>=3.20.0,<=4.22.0`.
 - Fixed an error that occurs when you do not specify the host parameter in the `connect()` api.
+
 ## 1.0.14
+
 - Updated pyocient dependencies to eliminate some unused dependencies and tighten
   the dependencies on protobuf and dsnparse.
 
 ## 1.0.13
+
 - Fixed bug that left `Cursor.rowcount` unset after Data Manipulation Language (DML) query execution.
 - The `cryptography` package requirement of version 36 or lower is no longer required.
 
 ## 1.0.12
+
 - Added `--nohistory` command-line option. The history file does not store commands from the session.
 - Added `ignorespace` option to command-line history. The history file omits lines that begin with a white space character.
 
 ## 1.0.11
+
 - Added a link to the release notes to the package description
 
 ## 1.0.10
@@ -78,7 +86,6 @@
 - Added support for `PRIORITY_ADJUSTMENT_FACTOR`, `PRIORITY_ADJUSTMENT_TIME`, `MIN_PRIORITY`, and `MAX_PRIORITY` query settings.
 - Enabled the handling of invalid DNS names received from the database
 
-
 ## 1.0.7
 
 - Fixed crash on invalid UTF-8 characters received from the database
@@ -91,7 +98,7 @@
 
 ## 1.0.5
 
-- Added additional debug logging to the redirection of connection 
+- Added additional debug logging to the redirection of connection
 
 ## 1.0.4
 
