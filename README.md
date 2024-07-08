@@ -2,7 +2,7 @@
 
 ## 3.3.2
 
-- Fix issue with ending SSO sessions when closing connections
+- Fix ending SSO sessions when you close the connection.
 
 ## 3.3.0
 
