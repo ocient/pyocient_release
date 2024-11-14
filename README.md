@@ -2,16 +2,16 @@
 
 ## 3.4.0
 
-- Added support for the PREVIEW DDL command
-- Support cryptography versions greater than 42.0.0
-- Fix a bug that returned -1 rows modified
-- Handle invalid DSN on the pyocient CLI more gracefully
-- Format unicode characters in JSON output
-- Fix an issue where not all warnings were being reported
-- Add the "messages" attribute to the cursor
-- Improved parameter expansion
-- Support `loglevel` and `logfile` parameters on DSNs
-- Preserve the Connection object over reconnects
+- Added support for the PREVIEW DDL SQL statement.
+- Support cryptography versions greater than 42.0.0.
+- Fixed an issue that returned -1 rows modified.
+- Fixed the handling of an invalid DSN on the pyocient CLI.
+- Formatted Unicode characters in JSON output.
+- Fixed an issue where not all warnings were reported.
+- Added the `messages` attribute to the cursor.
+- Improved parameter expansion.
+- Supported `loglevel` and `logfile` parameters on DSNs.
+- Preserved the Connection object for reconnects.
 
 ## 3.3.2
 
