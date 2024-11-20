@@ -1,5 +1,18 @@
 # Pyocient Release Notes
 
+## 3.4.0
+
+- Added support for the PREVIEW DDL SQL statement.
+- Support cryptography versions greater than 42.0.0.
+- Fixed an issue that returned -1 rows modified.
+- Fixed the handling of an invalid DSN on the pyocient CLI.
+- Formatted Unicode characters in JSON output.
+- Fixed an issue where not all warnings were reported.
+- Added the `messages` attribute to the cursor.
+- Improved parameter expansion.
+- Supported `loglevel` and `logfile` parameters on DSNs.
+- Preserved the Connection object for reconnects.
+
 ## 3.3.2
 
 - Fixed ending SSO sessions when you close the connection.
