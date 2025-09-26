@@ -16,7 +16,6 @@
 - Reduced verbosity for connection-type logging messages.
 - Added support for preserving schema and service class settings after reconnection.
 - Improved error handling for invalid DSNs in the CLI.
-- Removed deprecated AI text-to-SQL functionality.
 
 ## 3.4.0
 
