@@ -1,5 +1,23 @@
 # Pyocient Release Notes
 
+## 3.5.0
+
+- Added support for executable SQL files via shebang lines in the command-line interface.
+- Added `expect error` and `expect rowcount` commands to the CLI.
+- Added enhanced help functionality to the command-line interface.
+- Added nanosecond precision support for timestamp data types.
+- Added server-side `DESCRIBE TABLE/VIEW` command support with fallback to client-side describe for older server versions.
+- Added connection timeout support to prevent hanging connections.
+- Added configurable redirect URIs per OIDC integration for SSO functionality.
+- Fixed an infinite loop issue when fetch size was set to 0.
+- Improved parameter expansion handling and error messaging.
+- Improved Unicode character formatting in JSON output and CLI display.
+- Updated protobuf dependency to version 5.29.2 or higher.
+- Reduced verbosity for connection-type logging messages.
+- Added support for preserving schema and service class settings after reconnection.
+- Improved error handling for invalid DSNs in the command-line interface.
+- Removed deprecated AI text-to-SQL functionality.
+
 ## 3.4.0
 
 - Added support for the PREVIEW DDL SQL statement.
