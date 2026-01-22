@@ -4,17 +4,17 @@
 
 - Added support for Dataflow SQL statements, including control flow constructs (IF/ELSE, WHILE, FOR loops), exception handling (FINALLY), and table variables.
 - Added support for cross-database SSO authentication.
-- Added support for Google as an OIDC provider with server-side token exchange and polling.
+- Added support for Google® as an OIDC provider with server-side token exchange and polling.
 - Added support for specifying identity providers and SSO OAuth flow options.
 - Added support for SSL and hostname in SSO callback URLs.
 - Added support for token lifetimes in the client wire protocol.
 - Added the commit SHA to the pyocient package for version tracking.
 - Added support for URL-encoded special characters in DSN passwords.
-- Fixed an issue where null elements in multidimensional arrays were incorrectly returned as empty arrays instead of `None`.
-- Fixed an issue with precision and scale handling when casting arrays and tuples containing decimal types.
-- Removed a debug print statement that was incorrectly included.
-- Fixed an issue where CLI argument keys were not parsed as lowercase.
-- Improved CLI parsing of Ocient SQL statements.
+- Fixed the driver to return NULL elements in multidimensional arrays as `None`  instead of empty arrays.
+- Fixed precision and scale handling during the cast of arrays and tuples that contain DECIMAL types.
+- Removed an unnecessary debug print statement.
+- Fixed the parsing of CLI argument keys to be lowercase.
+- Improved CLI parsing of Ocient® SQL statements.
 - Reduced verbosity of debug messages during normal operation.
 
 ## 3.5.0
