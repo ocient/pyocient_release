@@ -2,7 +2,7 @@
 
 ## 3.6.0
 
-- Added support for Dataflow SQL statements, including control flow constructs (IF/ELSE, WHILE, FOR loops), exception handling (FINALLY), and table variables.
+- Added support for Dataflow SQL statements. Dataflow is a procedural superset of SQL that acts as an ad-hoc, anonymous, and imperative script. This new syntax parses, compiles, and executes logic in a single request using flow control, variables, scoped temporary tables, and exception handling. This new functionality requires version 27 or later of the Ocient® System.
 - Added support for cross-database SSO authentication.
 - Added support for Google® as an OIDC provider with server-side token exchange and polling.
 - Added support for specifying identity providers and SSO OAuth flow options.
