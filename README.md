@@ -14,7 +14,7 @@
 - Fixed precision and scale handling during the cast of arrays and tuples that contain DECIMAL types.
 - Removed an unnecessary debug print statement.
 - Fixed the parsing of CLI argument keys to be lowercase.
-- Improved CLI parsing of Ocient® SQL statements.
+- Improved CLI parsing of Ocient SQL statements.
 - Reduced verbosity of debug messages during normal operation.
 
 ## 3.5.0
