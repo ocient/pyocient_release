@@ -1,5 +1,22 @@
 # Pyocient Release Notes
 
+## 3.6.0
+
+- Added support for Dataflow SQL statements. Dataflow is a procedural superset of SQL that acts as an ad-hoc, anonymous, and imperative script. This new syntax parses, compiles, and executes logic in a single request using flow control, variables, scoped temporary tables, and exception handling. This new functionality requires version 27 or later of the Ocient® System.
+- Added support for cross-database SSO authentication.
+- Added support for Google® as an OIDC provider with server-side token exchange and polling.
+- Added support for specifying identity providers and SSO OAuth flow options.
+- Added support for SSL and hostname in SSO callback URLs.
+- Added support for token lifetimes in the client wire protocol.
+- Added the commit SHA to the pyocient package for version tracking.
+- Added support for URL-encoded special characters in DSN passwords.
+- Fixed the driver to return NULL elements in multidimensional arrays as `None`  instead of empty arrays.
+- Fixed precision and scale handling during the cast of arrays and tuples that contain DECIMAL types.
+- Removed an unnecessary debug print statement.
+- Fixed the parsing of CLI argument keys to be lowercase.
+- Improved CLI parsing of Ocient SQL statements.
+- Reduced verbosity of debug messages during normal operation.
+
 ## 3.5.0
 
 - Added support for executable SQL files using shebang lines in the command-line interface (CLI).
