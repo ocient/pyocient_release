@@ -1,5 +1,13 @@
 # Pyocient Release Notes
 
+## 3.7.0
+
+- Added transactional support.
+- Added asynchronous update support.
+- Added the display of the full complex type information.
+- Enabled the printing of the query Universally Unique IDentifier (UUID) when the system fails or experiences a Keyboard Interrupt.
+- Added generic server-side cancel and kill commands. This addition is not compatible with an Ocient® System that has a version less than 25.0.
+
 ## 3.6.0
 
 - Added support for Dataflow SQL statements. Dataflow is a procedural superset of SQL that acts as an ad-hoc, anonymous, and imperative script. This new syntax parses, compiles, and executes logic in a single request using flow control, variables, scoped temporary tables, and exception handling. This new functionality requires version 27 or later of the Ocient® System.
