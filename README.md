@@ -1,5 +1,26 @@
 # Pyocient Release Notes
 
+## 3.9.0
+
+- Removed support for unencrypted connections and the CBC handshake.
+- Added support for the MATRIX type in result sets, including matrices nested inside arrays, tuples, and maps. Requires version 28.0 or later of the Ocient® System.
+- Added support for the `SET QUERYMEMORYLIMIT` and `SET QUERYCPUSECONDS` session settings, which override the per-query memory and CPU limits of the service class. Requires version 29.0 or later of the Ocient System.
+- Added support for the fixed-length `BINARY(n)` column type that newer systems report. Requires version 28.0 or later of the Ocient System.
+- Added the population of the Python Database API `null_ok` field in `Cursor.description` from the column nullability that the system reports.
+- Fixed SSO failures that occurred when the identity provider issuer ends with a slash.
+- Updated the minimum versions of dependencies to include security fixes.
+- Minor bug fixes
+
+## 3.8.0
+
+- Added support for the `CHECK CONSTRAINTS` statement, which reports whether each primary key, unique, and foreign key constraint on a table is valid. Requires version 28.0 or later of the Ocient® System.
+- Enforced certificate and host name verification when you connect with `tls=on`.
+- Changed `Connection.close()` so that it no longer rolls back an uncommitted transaction by default, which matches the Ocient JDBC driver. To roll back on close, call `close(skip_auto_rollback=False)`.
+- Fixed a segmentation fault at interpreter exit that occurred when you closed a connection while a cursor still had an open result set.
+- Fixed asynchronous updates so that the connection timeout applies to each network operation instead of to the whole statement. Long-running updates no longer fail while the connection is healthy.
+- Fixed `WITH` queries that failed with a syntax error when a common table expression was named `stats`, `statistics`, or `dataflow`.
+- Fixed the CLI so that a `CASE` expression followed by an identifier named `dataflow` no longer ends a Dataflow block early.
+
 ## 3.7.0
 
 - Added transactional support.
